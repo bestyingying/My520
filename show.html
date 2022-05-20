@@ -108,7 +108,7 @@
 <script language="javascript">
     function show_date_time() {
         window.setTimeout("show_date_time()", 1000);
-        BirthDay = new Date("10/23/2014 00:00:00");//这个日期是可以修改的
+        BirthDay = new Date("10/31/2019 00:00:00");//这个日期是可以修改的
         today = new Date();
         timeold = (today.getTime() - BirthDay.getTime());
         sectimeold = timeold / 1000
@@ -132,7 +132,7 @@
             S.Drawing.init('.canvas');
             document.body.classList.add('body--ready');
             //想说的话
-            S.UI.simulate("{{小李同学}}|I'm|小马同学|Nice|to|Meet|You|#countdown 3|#time");
+            S.UI.simulate("{{小肖同学}}|I'm|小黄同学|Nice|to|Meet|You|#countdown 3|#time");
             S.Drawing.loop(function () {
                 S.Shape.render();
             });
